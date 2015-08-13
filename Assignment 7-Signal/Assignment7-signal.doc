@@ -1,0 +1,58 @@
+Assignment 7 - Signal Programming : BuzzOff.c
+---------------------
+ 
+The goal of this project is to introduce you to the concepts of simple
+interprocess communication between processes in UNIX via signals.
+
+The program must run on odin.
+
+
+INPUT/COMMAND LINE:
+------------------
+
+Your program should take three integer arguments:
+ $ BuzzOff <arg1> <arg2> <arg3>
+
+for example 10, 999 and 2
+ $ BuzzOff 10 999 2
+
+DESCRIPTION
+------------
+
+Your program should quietly count from 0 to <arg2> by 0.001 increments and
+keep a running total of the resulting product of <arg1> and the counter,
+	i.e. total += count * <arg1>;
+
+Your  program should have signal handlers for SIGUSR1, SIGUSR2, SIGINT
+and SIGALRM.
+
+When your program receives SIGUSR1 it should print the current running 
+total. When it receives SIGUSR2 it should toggle into or out off a 
+debug mode, e.g. if the debug mode is currently "on" it should 
+turn debugging off, if debug is "off" it should turn debugging on.
+
+When debugging is "on", your program should report the 
+total every <arg3> seconds (using alarm()) and ignore SIGUSR1. 
+When debugging is "off" the alarm() should be turned off and your program 
+should handle SIGUSR1 as before (i.e. report on the status of
+total). SIGINT should cause your program to report the running total 
+and then terminate.
+
+
+REQUIREMENTS:
+------------------
+ o You must submit at least the following files (i.e., all the files
+   necessary to compile your program):
+        README.txt
+        BuzzOff.cpp
+        Makefile
+
+ To submit the files, you will need to use the submit program.  Your files
+ need to be under a common subdirectory called "1730_program7".
+
+ Execute the below command line while in your home directory:
+   submit 1730_program7 cs1730
+
+kill ?SIGUSR1 
+kill ?SIGUSR2
+kill -SIGINT 

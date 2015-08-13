@@ -1,0 +1,299 @@
+/*
+ Author: Kristin Ottofy
+ Date: July 5, 2010
+ Program Name: MobyDick
+ */
+
+#include <string>
+#include <stdlib.h>
+#include <iostream>
+#include <stdio.h>
+#include <fstream>
+#include <ctime>
+
+using namespace std;
+
+string text;
+string anagram;
+string removeChars;    //NOT A COMMAND
+string outputValue;
+int textCount;
+int removeCount = 0;    //used to keep track of which index to replace
+//clock_t start;  
+int beforeReset;
+int afterReset;
+//bool inAnagramBool;
+//int lineCount = 1;
+//int tempLineCount = 0;
+
+/*string ReadText()
+{
+    string buf;
+    string line;
+    ifstream in("moby-dic.txt");
+    while(!in.eof())
+    {
+        getline(in,line);
+        buf += line + "\r";
+    }
+    //cout << "read: " << buf << "\n";
+    return buf;
+}*/
+
+void setText()
+{
+	//cout << "in setText()\n";
+    string c;
+	getline(cin, c);
+    while (!cin.eof())
+    {
+        text = text + c;
+        getline(cin, c);
+    }
+	//cout << "exiting setText()\n";
+}
+
+void resetStrings()
+{
+	//cout << "in void resetStrings()\n";
+    //lineCount -+ tempLineCount;
+    //inAnagramBool = false;
+    //tempLineCount = 0;
+	
+    outputValue = "";
+    removeChars = anagram;
+	
+	
+    //cout << "outputValue is: " << outputValue << endl;
+    //cout << "removeChars is: " << removeChars << endl;
+}
+
+int setUpperOrLowerCase()
+{
+    //cout << "in int setUpperOrLower()\n";
+    int upperOrLower = 0;
+	
+	
+    if (isupper((int)text[textCount]) == 1)
+        upperOrLower = 1;
+    else if (isupper((int)text[textCount]) == 0)
+        upperOrLower = 2;
+	
+    //cout << "upperOrLower is: " << upperOrLower << endl;
+	
+    return upperOrLower;
+}
+
+void replaceTextChar(int upperOrLower)
+{
+    //cout << "in void replaceTextChar(int upperOrLower)\n";
+    char a;
+    //replace with character based on upperOrLower case format
+    if (upperOrLower == 1)
+    {
+        a = toupper(text[textCount]);
+        outputValue = outputValue + a;
+    }
+	
+    if (upperOrLower == 2)
+    {
+        a = tolower(text[textCount]);
+        outputValue = outputValue + a;
+    }
+	
+    //cout << "outputValue is: " << outputValue << endl;
+}
+
+void removeChar()
+{
+    //cout << "in void removeChar()\n";
+    //remove character from string so it is not searched for again
+    for (int count = removeCount; count < removeChars.length() - 1; count++)
+    {
+        removeChars[count] = removeChars[count + 1];
+    }
+    removeCount--;
+    removeChars.resize(removeChars.length() -1);
+    //cout << "removeChars is: " << removeChars << endl;
+}
+
+int getLineNumber()
+{
+    int lineNumber = 1;
+    //cout << "in getLineNumber()\n";
+    
+    for (int i = 0; i <= textCount; i++)
+    {
+        if (text[i] == '\n')
+        {
+            //cout << "returning true for new line\n";
+            if (text[textCount + 1] != '\r')
+                lineNumber++;
+        }
+        else if(text[i] == '\r')
+        {
+            //cout << "returning true for carriage return\n";
+            if (text[textCount + 1] != '\n')
+                lineNumber++;
+		}
+    }
+    return  lineNumber;
+}
+
+void ifFinished()
+{
+    //cout << "in void ifFinished()\n";
+    if (removeChars.length() == 0)
+    {
+		
+        int lineCount = getLineNumber();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        cout << "Line count is: " << lineCount << endl;
+        cout << "Output is: " << outputValue << endl;
+		//     displayTime();
+        exit(0);
+    }
+}
+
+void setSpace()
+{
+    //cout << "in void setSpace()\n";
+    //cout << "outputValue.length() is: " << outputValue.length() << endl;
+    outputValue = outputValue + ' ';
+    //cout << "outputValue.length() is: " << outputValue.length() << endl;
+}
+
+bool ifNewLine()
+{
+    //cout << "in bool ifNewLine()\n";
+    if (text[textCount] == '\n')
+    {
+        //cout << "returning true for new line\n";
+        if (text[textCount + 1] != '\r')
+        {
+            //lineCount++;
+            return true;
+        }
+        else
+            return false;
+	}
+    else if(text[textCount] == '\r')
+    {
+        //cout << "returning true for carriage return\n";
+        if (text[textCount + 1] != '\n')
+        {
+            //lineCount++;
+            return true;
+        }
+        else
+            return false;
+	}
+    else
+    {
+        //cout << "returning false\n";
+        return false;
+    }
+}
+
+bool ifSpace()
+{
+    //cout << "in bool ifSpace()\n";
+    if (text[textCount] == ' ')
+    {
+        //cout << "returning true\n";
+        return true;
+    }
+    else
+    {
+        //cout << "returning false\n";
+        return false;
+    }
+}
+
+int main(int argc, char* argv[])
+{
+    int upperOrLower;    //used to keep track of original case format of text for output purposes
+	
+    //start = clock();  
+    //text = ReadText();
+	
+	//cout << "argc: " << argc << endl;
+	if (argc < 2)
+	 {
+		 cout << "Not enough parameters." << endl;
+		 exit(1);
+	 }
+	 
+	 for (int i = 1; argv[i] != NULL; i++)
+	 {
+		 //cout << "argv[" << i << "]: " << argv[i] << endl;
+		 anagram += argv[i];
+	 }
+	 
+	//åanagram = "taffomeatscenicicalinati";
+   // cout << "anagram: " << anagram << endl;
+		setText();
+	//cout << "text: " << text << endl;
+	
+    removeChars = anagram;
+	
+    //search until end of text
+    for (textCount = 0; textCount < text.length(); textCount++)
+    {
+		// cout << "textCount is: " << textCount << endl;
+        //cout << "text[textCount] is: " << text[textCount] << endl;
+		
+        //cout << "removeCount is: " << removeCount << endl;
+        if (removeCount == removeChars.length())
+        {
+            // Restart search at next text char
+            if(outputValue.length() > 0)
+                textCount -= outputValue.length();
+			
+            resetStrings();
+        }
+		
+        //loop through the anagram to see if it matches text[textCount]
+        for (removeCount = 0; removeCount < removeChars.length(); removeCount++)
+        {
+            /*    cout << "remove is: " << removeChars << endl;
+			 cout << "removeCount is: " <<        removeCount << endl;
+			 cout << "remove[removeCount] is: " << removeChars[removeCount] << endl;
+			 */
+            upperOrLower = setUpperOrLowerCase();
+			
+            //if a letter in the text equals a letter in the anagram
+            if (tolower(text[textCount]) == tolower(removeChars[removeCount]))
+            {
+                //cout << "in if-statement\n";
+                //inAnagramBool = true;
+                replaceTextChar(upperOrLower);
+                removeChar();
+                ifFinished();
+                break;  
+            }
+            else
+            {
+                //cout << "in else-statement\n";
+				
+                // Don't add space if first char
+                if (ifNewLine() && removeChars.length() < anagram.length())
+                {
+                    /*if (inAnagramBool == true)
+					 {
+					 lineCount++;
+					 tempLineCount++;
+					 }*/
+                    setSpace();
+                    break;
+                }
+                else if (ifSpace() && removeChars.length() < anagram.length())
+                {
+                    setSpace();
+                    break;
+                }
+                else
+                    continue;
+            }
+        }
+    }
+}

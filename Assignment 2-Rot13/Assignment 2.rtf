@@ -1,0 +1,100 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf0 ------------------------------------------------------------------------------\
+ROT13.cpp\
+\
+\
+Description\
+-------------------------------------------------------------------------------\
+\
+ The purpose of this program is to let you practice string and array manipulation \
+ as well as bit-wise operation in C/C++. \
+\
+ In this project, you are asked to implement a function rather than a whole program.\
+ The main body of the program is provided by the instructor. A makefile is also provided\
+ which allows you to compile the demo program as well as your implementation.\
+\
+ The program in this project is about ROT13 encoding.\
+ ROT13 stands for "rotate by 13 places". A similar form of this also known\
+ as Caesar cipher. The algorithm is not really useful for provide security\
+ protection and is often cited in history of cryptography or as a canonical \
+ example of weak security. \
+\
+ Your program needs to provide the following function: \
+ \
+	For any input, convert any letters that are in the 'a'-'z' and 'A'-'Z' ranges\
+	with the rule of ROT13, but keep other characters outside these ranges unchanged.\
+\
+	The program given to you have a two modes: encoding and decoding.\
+	(They are essentially the same function if you have not figured that out).\
+\
+\
+ Files:\
+       A main.c (or main.cpp) and rot13.o files are provided so that you can run the program.\
+       A Makefile is provided so that if you type "make demo", a demo program with\
+       rot13 encoding/decoding ability is generated. \
+\
+       Since the rot13.o are generated on odin, you might not be able to test the demo program\
+       on machines other than odin (or a similar machine). \
+\
+       Your task is to produce your version of rot13 implementation in file rot13lib.c (or .cpp\
+       if you use g++).\
+\
+       Your implementation has to be usable by the main.c (or main.cpp) and you are NOT allowed to \
+       change the main.c (or main.cpp).\
+\
+\
+\
+ SUBMIT REQUIREMENTS:\
+\
+  * You must submit at least the following files (i.e., all the files\
+    necessary to compile your program):\
+\
+        README.txt\
+        main.c (or .cpp) (please submit main file even you are NOT allow to change it)\
+	rot13lib.c (or .cpp) (your implementation of rot13)\
+        Makefile (similar to main.cpp, please DO NOT change this file)\
+\
+ In the "README.txt", you should list your name and the command used for compiling your \
+ code. If your makefile does not work, TA will try to use the command in your "README.txt"\
+ compile your code. The name of your program is called proj2\
+\
+ The command format for excuting your excutable file should be\
+        proj2 e < "file-to-be-encoded"\
+\
+ Your program should be able to encode input and decode \
+\
+ \
+ To submit the files, you will need to use the submit program.  Your files\
+ need to be under a common subdirectory called "1730_program2"\
+\
+ Execute the below command line while being above the directory 1730_program2\
+ that you just created:\
+   submit 1730_program2 cs1730\
+\
+ NOTE: you need to be LOGGED ONTO odin when you execute the submit command.\
+\
+--------------------------------------------------------------------------------\
+\
+Grading Policy (test cases will be release later)\
+\
+grading calculation (test cases will be released later)\
+\
+  submit valid readme file 10 points\
+  submit valid make file  10 points.\
+  test case 1 20 points\
+  test case 2 20 points\
+  test case 3 20 points\
+  test case 4 20 points\
+\
+Note that assignment that can not be compiled will be graded ZERO.\
+Late submission after the deadline will be graded ZERO.\
+------------------------------------------------------------------------------\
+\
+\
+}

@@ -1,0 +1,85 @@
+PROGRAM Assignment: Echo Server Program
+---------------------
+
+The goal of this project is to let student get familiar with basic socket programming. The program must run on odin.
+
+
+DESCRIPTION
+------------------
+
+The assignment requires you to write two programs (echoClient and echoServer) to demonstrate communication between two processes using TCP socket.
+
+The echoServer program should take a port number (for example
+6789) as the input:
+
+    $echoServer 6789
+
+The echoClient program should take the server IP address (127.0.0.1)
+and the server port as the input:
+
+    $echoClient 127.0.0.1 6789
+
+The echoServer opens a socket and waits requests from the 
+user specified port.
+(Make sure checking the bind result. You will very likely
+have some programs by you or others occupied the port already).
+When a connection is sucessfully set up, the echoServer
+read in what data from the socket, and echo it back by writing
+"Echo: <input strings>" where "input strings" are whatever
+data the echo server reads in. 
+
+The echoClient once starts to run, it opens a socket to 
+connect to the echoServer. Once it connects to the server, 
+it sends a string to the server, and then reads from the
+reply from the server, and prints it out. 
+
+The echoServer program needs to be able support concurrent 
+requests. The basic structure of the server is provided as
+following (you need to implement the echo function and the 
+parts of main function indicated by the comments.)
+
+void echo (int sid, char *str);
+
+int main (int argc, char **argv){
+
+    int sockid, s;
+    
+    /* take in user specified port number from commandline argument */
+
+    /* set up socket */
+    
+    while ((s=accept(sockid, ... ))>0) {
+
+	  if (fork()==0){
+	     /* Child process */
+	     read(s, buf ....);
+	     echo(s, buf);	     
+	     exit();	     	  
+	  }	  	  
+    }
+}
+
+Notice that some unix systems do not automatically search for 
+the socket related library. You need to use "-lsocket -lnsl"
+to indicate that socket and internet related libraries are required
+by your program. For example, to compile your programs on atlas,
+use "g++(or gcc) your_program -lsocket -lnsl"
+
+
+REQUIREMENTS:
+------------------
+ o You must submit at least the following files (i.e., all the files
+   necessary to compile your program):
+
+        README.txt
+        echoserver.c/cpp
+	  echoclient.c/cpp
+        Makefile
+
+ To submit the files, you will need to use the submit program.  Your files need to be under a common subdirectory called "1730_program6".
+
+ Execute the below command line while in your home directory:
+   submit 1730_program6 cs1730
+
+
+
