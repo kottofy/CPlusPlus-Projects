@@ -1,0 +1,5409 @@
+WORD: moby
+insert()
+printTree: word1: moby
+word: dick
+insert()
+printTree: word1: dick, word2: moby
+WORD: or
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: moby
+WORD: the
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+printTree: word1: dick, word2: moby
+word: whale
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x100390
+n->right: 0x1003d0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: moby
+WORD: by
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x100490
+n->right: 0x1004c0
+n->parent: 0x100400
+else
+printTree: word1: dick, word2: moby
+WORD: herman
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x100570
+n->right: 0x1005a0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1005f0
+n->right: 0x100620
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+word: melville
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x1006e0
+n->right: 0x100720
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x100750
+n->right: 0x100780
+n->parent: 0x100650
+else
+printTree: word1: dick, word2: herman
+WORD: chapter
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x100830
+n->right: 0x100860
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1008b0
+n->right: 0x1008e0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x100910
+n->right: 0x100940
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+word: 1
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x100a00
+n->right: 0x100a30
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x100a60
+n->right: 0x100a90
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x100ac0
+n->right: 0x100af0
+n->parent: 0x100970
+else
+printTree: word1: dick, word2: herman
+word: loomings
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x100ba0
+n->right: 0x100be0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x100c10
+n->right: 0x100c40
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x100c70
+n->right: 0x100ca0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x100cd0
+n->right: 0x100d00
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+WORD: call
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x100200
+n->right: 0x100e50
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x100e80
+n->right: 0x100eb0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x100ee0
+n->right: 0x100f10
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x100f40
+n->right: 0x100f70
+n->parent: 0x100d30
+else
+printTree: word1: dick, word2: herman
+WORD: me
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x101000
+n->right: 0x101030
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x101060
+n->right: 0x101090
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1010c0
+n->right: 0x1010f0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x101120
+n->right: 0x101150
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x101180
+n->right: 0x1011b0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+WORD: ishmael
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x101290
+n->right: 0x1012d0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x101300
+n->right: 0x101330
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x101360
+n->right: 0x101390
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1013c0
+n->right: 0x1013f0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x101420
+n->right: 0x101450
+n->parent: 0x1011e0
+else
+printTree: word1: dick, word2: herman
+WORD: some
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x101500
+n->right: 0x101540
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x101570
+n->right: 0x1015a0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1015d0
+n->right: 0x101600
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x101630
+n->right: 0x101660
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x101690
+n->right: 0x1016c0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1016f0
+n->right: 0x101720
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+WORD: years
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x101800
+n->right: 0x101840
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x101870
+n->right: 0x1018a0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1018d0
+n->right: 0x101900
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x101930
+n->right: 0x101960
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x101990
+n->right: 0x1019c0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1019f0
+n->right: 0x101a20
+n->parent: 0x101750
+else
+printTree: word1: dick, word2: herman
+WORD: ago
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x101ab0
+n->right: 0x101ae0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x101b30
+n->right: 0x101b60
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x101b90
+n->right: 0x101bc0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x101bf0
+n->right: 0x101c20
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x101c50
+n->right: 0x101c80
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x101cb0
+n->right: 0x101ce0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x101d10
+n->right: 0x101d40
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+WORD: never
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x101e20
+n->right: 0x101e60
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x101e90
+n->right: 0x101ec0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x101ef0
+n->right: 0x101f20
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x101f50
+n->right: 0x101f80
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x101fb0
+n->right: 0x101fe0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x102010
+n->right: 0x102040
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x102070
+n->right: 0x1020a0
+n->parent: 0x101d70
+else
+printTree: word1: dick, word2: herman
+WORD: mind
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x102150
+n->right: 0x102190
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1021c0
+n->right: 0x1021f0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x102220
+n->right: 0x102250
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x102280
+n->right: 0x1022b0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1022e0
+n->right: 0x102310
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x102340
+n->right: 0x102370
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x1023a0
+n->right: 0x1023d0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x102400
+n->right: 0x102430
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+WORD: how
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x102510
+n->right: 0x102540
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x102570
+n->right: 0x1025a0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1025d0
+n->right: 0x102600
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x102630
+n->right: 0x102660
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x102690
+n->right: 0x1026c0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1026f0
+n->right: 0x102720
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x102750
+n->right: 0x102780
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1027b0
+n->right: 0x1027e0
+n->parent: 0x102460
+else
+printTree: word1: dick, word2: herman
+WORD: long
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x102890
+n->right: 0x1028d0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x102900
+n->right: 0x102930
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x102960
+n->right: 0x102990
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1029c0
+n->right: 0x1029f0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x102a20
+n->right: 0x102a50
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x102a80
+n->right: 0x102ab0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x102ae0
+n->right: 0x102b10
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x102b40
+n->right: 0x102b70
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x102ba0
+n->right: 0x102bd0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: herman
+WORD: precisely
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x102cb0
+n->right: 0x102cf0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x102d20
+n->right: 0x102d50
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x102d80
+n->right: 0x102db0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x102de0
+n->right: 0x102e10
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x102e40
+n->right: 0x102e70
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x102ea0
+n->right: 0x102ed0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x102f00
+n->right: 0x102f30
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x102f60
+n->right: 0x102f90
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x102fc0
+n->right: 0x102ff0
+n->parent: 0x102c00
+else
+printTree: word1: dick, word2: herman
+WORD: having
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x1030a0
+n->right: 0x1030d0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x103120
+n->right: 0x103150
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x103180
+n->right: 0x1031b0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1031e0
+n->right: 0x103210
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x103240
+n->right: 0x103270
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1032a0
+n->right: 0x1032d0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x103300
+n->right: 0x103330
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x103360
+n->right: 0x103390
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x1033c0
+n->right: 0x1033f0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x103420
+n->right: 0x103450
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: little
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x103510
+n->right: 0x103550
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x103580
+n->right: 0x1035b0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1035e0
+n->right: 0x103610
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x103640
+n->right: 0x103670
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1036a0
+n->right: 0x1036d0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x103700
+n->right: 0x103730
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x103760
+n->right: 0x103790
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1037c0
+n->right: 0x1037f0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x103820
+n->right: 0x103850
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x103880
+n->right: 0x1038b0
+n->parent: 0x103480
+else
+printTree: word1: dick, word2: having
+WORD: or
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x103940
+n->right: 0x103970
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1039a0
+n->right: 0x1039d0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x103a00
+n->right: 0x103a30
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x103a60
+n->right: 0x103a90
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x103ac0
+n->right: 0x103af0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x103b20
+n->right: 0x103b50
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x103b80
+n->right: 0x103bb0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x103be0
+n->right: 0x103c10
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x103c40
+n->right: 0x103c70
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x103ca0
+n->right: 0x103cd0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x103d00
+n->right: 0x103d30
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: no
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x103df0
+n->right: 0x103e20
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x103e50
+n->right: 0x103e80
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x103eb0
+n->right: 0x103ee0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x103f10
+n->right: 0x103f40
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x103f70
+n->right: 0x103fa0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x103fd0
+n->right: 0x104000
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x104030
+n->right: 0x104060
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x104090
+n->right: 0x1040c0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x1040f0
+n->right: 0x104120
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x104150
+n->right: 0x104180
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x1041b0
+n->right: 0x1041e0
+n->parent: 0x103d60
+else
+printTree: word1: dick, word2: having
+WORD: money
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x104290
+n->right: 0x1042d0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x104300
+n->right: 0x104330
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x104360
+n->right: 0x104390
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1043c0
+n->right: 0x1043f0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x104420
+n->right: 0x104450
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x104480
+n->right: 0x1044b0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x1044e0
+n->right: 0x104510
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x104540
+n->right: 0x104570
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x1045a0
+n->right: 0x1045d0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x104600
+n->right: 0x104630
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x104660
+n->right: 0x104690
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x1046c0
+n->right: 0x1046f0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: in
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x1047b0
+n->right: 0x1047e0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x104810
+n->right: 0x104840
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x104870
+n->right: 0x1048a0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1048d0
+n->right: 0x104900
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x104930
+n->right: 0x104960
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x104990
+n->right: 0x1049c0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x1049f0
+n->right: 0x104a20
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x104a50
+n->right: 0x104a80
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x104ab0
+n->right: 0x104ae0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x104b10
+n->right: 0x104b40
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x104b70
+n->right: 0x104ba0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x104bd0
+n->right: 0x104c00
+n->parent: 0x104720
+else
+printTree: word1: dick, word2: having
+WORD: my
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x104c90
+n->right: 0x104cc0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x104cf0
+n->right: 0x104d20
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x104d50
+n->right: 0x104d80
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x104db0
+n->right: 0x104de0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x104e10
+n->right: 0x104e40
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x104e70
+n->right: 0x104ea0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x104ed0
+n->right: 0x104f00
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x104f30
+n->right: 0x104f60
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x104f90
+n->right: 0x104fc0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x104ff0
+n->right: 0x105020
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x105050
+n->right: 0x105080
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x1050b0
+n->right: 0x1050e0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x105110
+n->right: 0x105140
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: purse
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x105220
+n->right: 0x105260
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x105290
+n->right: 0x1052c0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1052f0
+n->right: 0x105320
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x105350
+n->right: 0x105380
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1053b0
+n->right: 0x1053e0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x105410
+n->right: 0x105440
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x105470
+n->right: 0x1054a0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1054d0
+n->right: 0x105500
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x105530
+n->right: 0x105560
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x105590
+n->right: 0x1055c0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x1055f0
+n->right: 0x105620
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x105650
+n->right: 0x105680
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x1056b0
+n->right: 0x1056e0
+n->parent: 0x105170
+else
+printTree: word1: dick, word2: having
+WORD: and
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x105770
+n->right: 0x1057a0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1057f0
+n->right: 0x105820
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x105850
+n->right: 0x105880
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1058b0
+n->right: 0x1058e0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x105910
+n->right: 0x105940
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x105970
+n->right: 0x1059a0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x1059d0
+n->right: 0x105a00
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x105a30
+n->right: 0x105a60
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x105a90
+n->right: 0x105ac0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x105af0
+n->right: 0x105b20
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x105b50
+n->right: 0x105b80
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x105bb0
+n->right: 0x105be0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x105c10
+n->right: 0x105c40
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x105c70
+n->right: 0x105ca0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: nothing
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x105d80
+n->right: 0x105dc0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x105df0
+n->right: 0x105e20
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x105e50
+n->right: 0x105e80
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x105eb0
+n->right: 0x105ee0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x105f10
+n->right: 0x105f40
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x105f70
+n->right: 0x105fa0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x105fd0
+n->right: 0x106000
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x106030
+n->right: 0x106060
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x106090
+n->right: 0x1060c0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x1060f0
+n->right: 0x106120
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x106150
+n->right: 0x106180
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x1061b0
+n->right: 0x1061e0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x106210
+n->right: 0x106240
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x106270
+n->right: 0x1062a0
+n->parent: 0x105cd0
+else
+printTree: word1: dick, word2: having
+word: particular
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x106350
+n->right: 0x106390
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1063c0
+n->right: 0x1063f0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x106420
+n->right: 0x106450
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x106480
+n->right: 0x1064b0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1064e0
+n->right: 0x106510
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x106540
+n->right: 0x106570
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x1065a0
+n->right: 0x1065d0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x106600
+n->right: 0x106630
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x106660
+n->right: 0x106690
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x1066c0
+n->right: 0x1066f0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x106720
+n->right: 0x106750
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x106780
+n->right: 0x1067b0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x1067e0
+n->right: 0x106810
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x106840
+n->right: 0x106870
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x1068a0
+n->right: 0x1068d0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: to
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x106990
+n->right: 0x1069c0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1069f0
+n->right: 0x106a20
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x106a50
+n->right: 0x106a80
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x106ab0
+n->right: 0x106ae0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x106b10
+n->right: 0x106b40
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x106b70
+n->right: 0x106ba0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x106bd0
+n->right: 0x106c00
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x106c30
+n->right: 0x106c60
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x106c90
+n->right: 0x106cc0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x106cf0
+n->right: 0x106d20
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x106d50
+n->right: 0x106d80
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x106db0
+n->right: 0x106de0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x106e10
+n->right: 0x106e40
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x106e70
+n->right: 0x106ea0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x106ed0
+n->right: 0x106f00
+n->parent: 0x106900
+else
+printTree: word1: dick, word2: having
+WORD: interest
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x106fb0
+n->right: 0x106ff0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x107020
+n->right: 0x107050
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x107080
+n->right: 0x1070b0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1070e0
+n->right: 0x107110
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x107140
+n->right: 0x107170
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1071a0
+n->right: 0x1071d0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x107200
+n->right: 0x107230
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x107260
+n->right: 0x107290
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x1072c0
+n->right: 0x1072f0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x107320
+n->right: 0x107350
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x107380
+n->right: 0x1073b0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x1073e0
+n->right: 0x107410
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x107440
+n->right: 0x107470
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x1074a0
+n->right: 0x1074d0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x107500
+n->right: 0x107530
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x107560
+n->right: 0x107590
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: me
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x107650
+n->right: 0x107680
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1076b0
+n->right: 0x1076e0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x107710
+n->right: 0x107740
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x107770
+n->right: 0x1077a0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1077d0
+n->right: 0x107800
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x107830
+n->right: 0x107860
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x107890
+n->right: 0x1078c0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1078f0
+n->right: 0x107920
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x107950
+n->right: 0x107980
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x1079b0
+n->right: 0x1079e0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x107a10
+n->right: 0x107a40
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x107a70
+n->right: 0x107aa0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x107ad0
+n->right: 0x107b00
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x107b30
+n->right: 0x107b60
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x107b90
+n->right: 0x107bc0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x107bf0
+n->right: 0x107c20
+n->parent: 0x1075c0
+else
+printTree: word1: dick, word2: having
+WORD: on
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x107cb0
+n->right: 0x107ce0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x107d10
+n->right: 0x107d40
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x107d70
+n->right: 0x107da0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x107dd0
+n->right: 0x107e00
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x107e30
+n->right: 0x107e60
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x107e90
+n->right: 0x107ec0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x107ef0
+n->right: 0x107f20
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x107f50
+n->right: 0x107f80
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x107fb0
+n->right: 0x107fe0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x108010
+n->right: 0x108040
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x108070
+n->right: 0x1080a0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x1080d0
+n->right: 0x108100
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x108130
+n->right: 0x108160
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x108190
+n->right: 0x1081c0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x1081f0
+n->right: 0x108220
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x108250
+n->right: 0x108280
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x1082b0
+n->right: 0x1082e0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: shore
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x1083c0
+n->right: 0x108400
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x108430
+n->right: 0x108460
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x108490
+n->right: 0x1084c0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x1084f0
+n->right: 0x108520
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x108550
+n->right: 0x108580
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1085b0
+n->right: 0x1085e0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x108610
+n->right: 0x108640
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x108670
+n->right: 0x1086a0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x1086d0
+n->right: 0x108700
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x108730
+n->right: 0x108760
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x108790
+n->right: 0x1087c0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x1087f0
+n->right: 0x108820
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x108850
+n->right: 0x108880
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x1088b0
+n->right: 0x1088e0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x108910
+n->right: 0x108940
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x108970
+n->right: 0x1089a0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x1089d0
+n->right: 0x108a00
+n->parent: 0x108310
+else
+printTree: word1: dick, word2: having
+WORD: i
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x108a90
+n->right: 0x108ac0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x108af0
+n->right: 0x108b20
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x108b50
+n->right: 0x108b80
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x108bb0
+n->right: 0x108be0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x108c10
+n->right: 0x108c40
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x108c70
+n->right: 0x108ca0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x108cd0
+n->right: 0x108d00
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x108d30
+n->right: 0x108d60
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x108d90
+n->right: 0x108dc0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x108df0
+n->right: 0x108e20
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x108e50
+n->right: 0x108e80
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x108eb0
+n->right: 0x108ee0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x108f10
+n->right: 0x108f40
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x108f70
+n->right: 0x108fa0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x108fd0
+n->right: 0x109000
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x109030
+n->right: 0x109060
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x109090
+n->right: 0x1090c0
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x1090f0
+n->right: 0x109120
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: thought
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x109200
+n->right: 0x109240
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x109270
+n->right: 0x1092a0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1092d0
+n->right: 0x109300
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x109330
+n->right: 0x109360
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x109390
+n->right: 0x1093c0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1093f0
+n->right: 0x109420
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x109450
+n->right: 0x109480
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1094b0
+n->right: 0x1094e0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x109510
+n->right: 0x109540
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x109570
+n->right: 0x1095a0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x1095d0
+n->right: 0x109600
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x109630
+n->right: 0x109660
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x109690
+n->right: 0x1096c0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x1096f0
+n->right: 0x109720
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x109750
+n->right: 0x109780
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x1097b0
+n->right: 0x1097e0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x109810
+n->right: 0x109840
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x109870
+n->right: 0x1098a0
+n->parent: 0x109150
+else
+printTree: word1: dick, word2: having
+WORD: i
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x109930
+n->right: 0x109960
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x109990
+n->right: 0x1099c0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1099f0
+n->right: 0x109a20
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x109a50
+n->right: 0x109a80
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x109ab0
+n->right: 0x109ae0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x109b10
+n->right: 0x109b40
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x109b70
+n->right: 0x109ba0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x109bd0
+n->right: 0x109c00
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x109c30
+n->right: 0x109c60
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x109c90
+n->right: 0x109cc0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x109cf0
+n->right: 0x109d20
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x109d50
+n->right: 0x109d80
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x109db0
+n->right: 0x109de0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x109e10
+n->right: 0x109e40
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x109e70
+n->right: 0x109ea0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x109ed0
+n->right: 0x109f00
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x109f30
+n->right: 0x109f60
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x109f90
+n->right: 0x109fc0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x109ff0
+n->right: 0x10a020
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: would
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10a100
+n->right: 0x10a140
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10a170
+n->right: 0x10a1a0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10a1d0
+n->right: 0x10a200
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10a230
+n->right: 0x10a260
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10a290
+n->right: 0x10a2c0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10a2f0
+n->right: 0x10a320
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10a350
+n->right: 0x10a380
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10a3b0
+n->right: 0x10a3e0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10a410
+n->right: 0x10a440
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10a470
+n->right: 0x10a4a0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10a4d0
+n->right: 0x10a500
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10a530
+n->right: 0x10a560
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10a590
+n->right: 0x10a5c0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10a5f0
+n->right: 0x10a620
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10a650
+n->right: 0x10a680
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10a6b0
+n->right: 0x10a6e0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10a710
+n->right: 0x10a740
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10a770
+n->right: 0x10a7a0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10a7d0
+n->right: 0x10a800
+n->parent: 0x10a050
+else
+printTree: word1: dick, word2: having
+WORD: sail
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10a8b0
+n->right: 0x10a8f0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10a920
+n->right: 0x10a950
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10a980
+n->right: 0x10a9b0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10a9e0
+n->right: 0x10aa10
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10aa40
+n->right: 0x10aa70
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10aaa0
+n->right: 0x10aad0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10ab00
+n->right: 0x10ab30
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10ab60
+n->right: 0x10ab90
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10abc0
+n->right: 0x10abf0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10ac20
+n->right: 0x10ac50
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10ac80
+n->right: 0x10acb0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10ace0
+n->right: 0x10ad10
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10ad40
+n->right: 0x10ad70
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10ada0
+n->right: 0x10add0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10ae00
+n->right: 0x10ae30
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10ae60
+n->right: 0x10ae90
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10aec0
+n->right: 0x10aef0
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10af20
+n->right: 0x10af50
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10af80
+n->right: 0x10afb0
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10afe0
+n->right: 0x10b010
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: about
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10b0f0
+n->right: 0x10b120
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10b170
+n->right: 0x10b1a0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10b1d0
+n->right: 0x10b200
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10b230
+n->right: 0x10b260
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10b290
+n->right: 0x10b2c0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10b2f0
+n->right: 0x10b320
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10b350
+n->right: 0x10b380
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10b3b0
+n->right: 0x10b3e0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10b410
+n->right: 0x10b440
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10b470
+n->right: 0x10b4a0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10b4d0
+n->right: 0x10b500
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10b530
+n->right: 0x10b560
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10b590
+n->right: 0x10b5c0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10b5f0
+n->right: 0x10b620
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10b650
+n->right: 0x10b680
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10b6b0
+n->right: 0x10b6e0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10b710
+n->right: 0x10b740
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10b770
+n->right: 0x10b7a0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10b7d0
+n->right: 0x10b800
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10b830
+n->right: 0x10b860
+n->parent: 0x10b040
+else
+printTree: word1: dick, word2: having
+WORD: a
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10b8f0
+n->right: 0x10b930
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10b960
+n->right: 0x10b990
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10b9c0
+n->right: 0x10b9f0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10ba20
+n->right: 0x10ba50
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10ba80
+n->right: 0x10bab0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10bae0
+n->right: 0x10bb10
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10bb40
+n->right: 0x10bb70
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10bba0
+n->right: 0x10bbd0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10bc00
+n->right: 0x10bc30
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10bc60
+n->right: 0x10bc90
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10bcc0
+n->right: 0x10bcf0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10bd20
+n->right: 0x10bd50
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10bd80
+n->right: 0x10bdb0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10bde0
+n->right: 0x10be10
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10be40
+n->right: 0x10be70
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10bea0
+n->right: 0x10bed0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10bf00
+n->right: 0x10bf30
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10bf60
+n->right: 0x10bf90
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10bfc0
+n->right: 0x10bff0
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10c020
+n->right: 0x10c050
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10c080
+n->right: 0x10c0b0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+word: little
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10c170
+n->right: 0x10c1b0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10c1e0
+n->right: 0x10c210
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10c240
+n->right: 0x10c270
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10c2a0
+n->right: 0x10c2d0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10c300
+n->right: 0x10c330
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10c360
+n->right: 0x10c390
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10c3c0
+n->right: 0x10c3f0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10c420
+n->right: 0x10c450
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10c480
+n->right: 0x10c4b0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10c4e0
+n->right: 0x10c510
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10c540
+n->right: 0x10c570
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10c5a0
+n->right: 0x10c5d0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10c600
+n->right: 0x10c630
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10c660
+n->right: 0x10c690
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10c6c0
+n->right: 0x10c6f0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10c720
+n->right: 0x10c750
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10c780
+n->right: 0x10c7b0
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10c7e0
+n->right: 0x10c810
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10c840
+n->right: 0x10c870
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10c8a0
+n->right: 0x10c8d0
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10c900
+n->right: 0x10c930
+n->parent: 0x10c0e0
+else
+printTree: word1: dick, word2: having
+WORD: and
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10c9c0
+n->right: 0x10c9f0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10ca40
+n->right: 0x10ca70
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10caa0
+n->right: 0x10cad0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10cb00
+n->right: 0x10cb30
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10cb60
+n->right: 0x10cb90
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10cbc0
+n->right: 0x10cbf0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10cc20
+n->right: 0x10cc50
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10cc80
+n->right: 0x10ccb0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10cce0
+n->right: 0x10cd10
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10cd40
+n->right: 0x10cd70
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10cda0
+n->right: 0x10cdd0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10ce00
+n->right: 0x10ce30
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10ce60
+n->right: 0x10ce90
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10cec0
+n->right: 0x10cef0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10cf20
+n->right: 0x10cf50
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10cf80
+n->right: 0x10cfb0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10cfe0
+n->right: 0x10d010
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10d040
+n->right: 0x10d070
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10d0a0
+n->right: 0x10d0d0
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10d100
+n->right: 0x10d130
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10d160
+n->right: 0x10d190
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x10d1c0
+n->right: 0x10d1f0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: see
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10d2d0
+n->right: 0x10d300
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10d330
+n->right: 0x10d360
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10d390
+n->right: 0x10d3c0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10d3f0
+n->right: 0x10d420
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10d450
+n->right: 0x10d480
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10d4b0
+n->right: 0x10d4e0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10d510
+n->right: 0x10d540
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10d570
+n->right: 0x10d5a0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10d5d0
+n->right: 0x10d600
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10d630
+n->right: 0x10d660
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10d690
+n->right: 0x10d6c0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10d6f0
+n->right: 0x10d720
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10d750
+n->right: 0x10d780
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10d7b0
+n->right: 0x10d7e0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10d810
+n->right: 0x10d840
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10d870
+n->right: 0x10d8a0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10d8d0
+n->right: 0x10d900
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10d930
+n->right: 0x10d960
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10d990
+n->right: 0x10d9c0
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10d9f0
+n->right: 0x10da20
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10da50
+n->right: 0x10da80
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x10dab0
+n->right: 0x10dae0
+n->parent: 0x10d220
+else
+printTree: word1: dick, word2: having
+WORD: the
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10db90
+n->right: 0x10dbc0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10dbf0
+n->right: 0x10dc20
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10dc50
+n->right: 0x10dc80
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10dcb0
+n->right: 0x10dce0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10dd10
+n->right: 0x10dd40
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10dd70
+n->right: 0x10dda0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10ddd0
+n->right: 0x10de00
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10de30
+n->right: 0x10de60
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10de90
+n->right: 0x10dec0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10def0
+n->right: 0x10df20
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10df50
+n->right: 0x10df80
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10dfb0
+n->right: 0x10dfe0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10e010
+n->right: 0x10e040
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10e070
+n->right: 0x10e0a0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10e0d0
+n->right: 0x10e100
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10e130
+n->right: 0x10e160
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10e190
+n->right: 0x10e1c0
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10e1f0
+n->right: 0x10e220
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10e250
+n->right: 0x10e280
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10e2b0
+n->right: 0x10e2e0
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10e310
+n->right: 0x10e340
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x10e370
+n->right: 0x10e3a0
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x10e3d0
+n->right: 0x10e400
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: watery
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10e4e0
+n->right: 0x10e520
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10e550
+n->right: 0x10e580
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10e5b0
+n->right: 0x10e5e0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10e610
+n->right: 0x10e640
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10e670
+n->right: 0x10e6a0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10e6d0
+n->right: 0x10e700
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10e730
+n->right: 0x10e760
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10e790
+n->right: 0x10e7c0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10e7f0
+n->right: 0x10e820
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10e850
+n->right: 0x10e880
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10e8b0
+n->right: 0x10e8e0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10e910
+n->right: 0x10e940
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10e970
+n->right: 0x10e9a0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10e9d0
+n->right: 0x10ea00
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10ea30
+n->right: 0x10ea60
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10ea90
+n->right: 0x10eac0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10eaf0
+n->right: 0x10eb20
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10eb50
+n->right: 0x10eb80
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10ebb0
+n->right: 0x10ebe0
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10ec10
+n->right: 0x10ec40
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10ec70
+n->right: 0x10eca0
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x10ecd0
+n->right: 0x10ed00
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x10ed30
+n->right: 0x10ed60
+n->parent: 0x10e430
+else
+printTree: word1: dick, word2: having
+WORD: part
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10ee10
+n->right: 0x10ee50
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10ee80
+n->right: 0x10eeb0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10eee0
+n->right: 0x10ef10
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10ef40
+n->right: 0x10ef70
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10efa0
+n->right: 0x10efd0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10f000
+n->right: 0x10f030
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10f060
+n->right: 0x10f090
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10f0c0
+n->right: 0x10f0f0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10f120
+n->right: 0x10f150
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10f180
+n->right: 0x10f1b0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10f1e0
+n->right: 0x10f210
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10f240
+n->right: 0x10f270
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10f2a0
+n->right: 0x10f2d0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10f300
+n->right: 0x10f330
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10f360
+n->right: 0x10f390
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10f3c0
+n->right: 0x10f3f0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10f420
+n->right: 0x10f450
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10f480
+n->right: 0x10f4b0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10f4e0
+n->right: 0x10f510
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10f540
+n->right: 0x10f570
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10f5a0
+n->right: 0x10f5d0
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x10f600
+n->right: 0x10f630
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x10f660
+n->right: 0x10f690
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x10f6c0
+n->right: 0x10f6f0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: of
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x10f7b0
+n->right: 0x10f7e0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x10f810
+n->right: 0x10f840
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x10f870
+n->right: 0x10f8a0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x10f8d0
+n->right: 0x10f900
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x10f930
+n->right: 0x10f960
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x10f990
+n->right: 0x10f9c0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x10f9f0
+n->right: 0x10fa20
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x10fa50
+n->right: 0x10fa80
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x10fab0
+n->right: 0x10fae0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x10fb10
+n->right: 0x10fb40
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x10fb70
+n->right: 0x10fba0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x10fbd0
+n->right: 0x10fc00
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x10fc30
+n->right: 0x10fc60
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x10fc90
+n->right: 0x10fcc0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x10fcf0
+n->right: 0x10fd20
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x10fd50
+n->right: 0x10fd80
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x10fdb0
+n->right: 0x10fde0
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x10fe10
+n->right: 0x10fe40
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x10fe70
+n->right: 0x10fea0
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x10fed0
+n->right: 0x10ff00
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x10ff30
+n->right: 0x10ff60
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x10ff90
+n->right: 0x10ffc0
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x10fff0
+n->right: 0x110020
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x110050
+n->right: 0x110080
+n->parent: 0x10f720
+else
+printTree: word1: dick, word2: having
+WORD: the
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x110130
+n->right: 0x110160
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x110190
+n->right: 0x1101c0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1101f0
+n->right: 0x110220
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x110250
+n->right: 0x110280
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1102b0
+n->right: 0x1102e0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x110310
+n->right: 0x110340
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x110370
+n->right: 0x1103a0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1103d0
+n->right: 0x110400
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x110430
+n->right: 0x110460
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x110490
+n->right: 0x1104c0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x1104f0
+n->right: 0x110520
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x110550
+n->right: 0x110580
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x1105b0
+n->right: 0x1105e0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x110610
+n->right: 0x110640
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x110670
+n->right: 0x1106a0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x1106d0
+n->right: 0x110700
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x110730
+n->right: 0x110760
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x110790
+n->right: 0x1107c0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x1107f0
+n->right: 0x110820
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x110850
+n->right: 0x110880
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x1108b0
+n->right: 0x1108e0
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x110910
+n->right: 0x110940
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x110970
+n->right: 0x1109a0
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x1109d0
+n->right: 0x110a00
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x110a30
+n->right: 0x110a60
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: world
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x110b40
+n->right: 0x110b80
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x110bb0
+n->right: 0x110be0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x110c10
+n->right: 0x110c40
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x110c70
+n->right: 0x110ca0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x110cd0
+n->right: 0x110d00
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x110d30
+n->right: 0x110d60
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x110d90
+n->right: 0x110dc0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x110df0
+n->right: 0x110e20
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x110e50
+n->right: 0x110e80
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x110eb0
+n->right: 0x110ee0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x110f10
+n->right: 0x110f40
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x110f70
+n->right: 0x110fa0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x110fd0
+n->right: 0x111000
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x111030
+n->right: 0x111060
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x111090
+n->right: 0x1110c0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x1110f0
+n->right: 0x111120
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x111150
+n->right: 0x111180
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x1111b0
+n->right: 0x1111e0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x111210
+n->right: 0x111240
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x111270
+n->right: 0x1112a0
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x1112d0
+n->right: 0x111300
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x111330
+n->right: 0x111360
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x111390
+n->right: 0x1113c0
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x1113f0
+n->right: 0x111420
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x111450
+n->right: 0x111480
+n->parent: 0x110a90
+else
+printTree: word1: dick, word2: having
+WORD: it
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x111510
+n->right: 0x111540
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x111570
+n->right: 0x1115a0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x1115d0
+n->right: 0x111600
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x111630
+n->right: 0x111660
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x111690
+n->right: 0x1116c0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1116f0
+n->right: 0x111720
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x111750
+n->right: 0x111780
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1117b0
+n->right: 0x1117e0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x111810
+n->right: 0x111840
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x111870
+n->right: 0x1118a0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x1118d0
+n->right: 0x111900
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x111930
+n->right: 0x111960
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x111990
+n->right: 0x1119c0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x1119f0
+n->right: 0x111a20
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x111a50
+n->right: 0x111a80
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x111ab0
+n->right: 0x111ae0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x111b10
+n->right: 0x111b40
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x111b70
+n->right: 0x111ba0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x111bd0
+n->right: 0x111c00
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x111c30
+n->right: 0x111c60
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x111c90
+n->right: 0x111cc0
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x111cf0
+n->right: 0x111d20
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x111d50
+n->right: 0x111d80
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x111db0
+n->right: 0x111de0
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x111e10
+n->right: 0x111e40
+n->parent: 0x110a90
+else
+split()
+n: 0x110a90
+n->left: 0x111e70
+n->right: 0x111ea0
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: is
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x111f60
+n->right: 0x111f90
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x111fc0
+n->right: 0x111ff0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x112020
+n->right: 0x112050
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x112080
+n->right: 0x1120b0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1120e0
+n->right: 0x112110
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x112140
+n->right: 0x112170
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x1121a0
+n->right: 0x1121d0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x112200
+n->right: 0x112230
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x112260
+n->right: 0x112290
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x1122c0
+n->right: 0x1122f0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x112320
+n->right: 0x112350
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x112380
+n->right: 0x1123b0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x1123e0
+n->right: 0x112410
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x112440
+n->right: 0x112470
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x1124a0
+n->right: 0x1124d0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x112500
+n->right: 0x112530
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x112560
+n->right: 0x112590
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x1125c0
+n->right: 0x1125f0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x112620
+n->right: 0x112650
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x112680
+n->right: 0x1126b0
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x1126e0
+n->right: 0x112710
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x112740
+n->right: 0x112770
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x1127a0
+n->right: 0x1127d0
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x112800
+n->right: 0x112830
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x112860
+n->right: 0x112890
+n->parent: 0x110a90
+else
+split()
+n: 0x110a90
+n->left: 0x1128c0
+n->right: 0x1128f0
+n->parent: 0x111ed0
+else
+printTree: word1: dick, word2: having
+WORD: a
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x112980
+n->right: 0x1129b0
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1129e0
+n->right: 0x112a10
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x112a40
+n->right: 0x112a70
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x112aa0
+n->right: 0x112ad0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x112b00
+n->right: 0x112b30
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x112b60
+n->right: 0x112b90
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x112bc0
+n->right: 0x112bf0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x112c20
+n->right: 0x112c50
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x112c80
+n->right: 0x112cb0
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x112ce0
+n->right: 0x112d10
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x112d40
+n->right: 0x112d70
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x112da0
+n->right: 0x112dd0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x112e00
+n->right: 0x112e30
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x112e60
+n->right: 0x112e90
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x112ec0
+n->right: 0x112ef0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x112f20
+n->right: 0x112f50
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x112f80
+n->right: 0x112fb0
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x112fe0
+n->right: 0x113010
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x113040
+n->right: 0x113070
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x1130a0
+n->right: 0x1130d0
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x113100
+n->right: 0x113130
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x113160
+n->right: 0x113190
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x1131c0
+n->right: 0x1131f0
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x113220
+n->right: 0x113250
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x113280
+n->right: 0x1132b0
+n->parent: 0x110a90
+else
+split()
+n: 0x110a90
+n->left: 0x1132e0
+n->right: 0x113310
+n->parent: 0x111ed0
+else
+split()
+n: 0x111ed0
+n->left: 0x113340
+n->right: 0x113370
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+WORD: way
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x113450
+n->right: 0x113480
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x1134b0
+n->right: 0x1134e0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x113510
+n->right: 0x113540
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x113570
+n->right: 0x1135a0
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x1135d0
+n->right: 0x113600
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x113630
+n->right: 0x113660
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x113690
+n->right: 0x1136c0
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x1136f0
+n->right: 0x113720
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x113750
+n->right: 0x113780
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x1137b0
+n->right: 0x1137e0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x113810
+n->right: 0x113840
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x113870
+n->right: 0x1138a0
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x1138d0
+n->right: 0x113900
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x113930
+n->right: 0x113960
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x113990
+n->right: 0x1139c0
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x1139f0
+n->right: 0x113a20
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x113a50
+n->right: 0x113a80
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x113ab0
+n->right: 0x113ae0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x113b10
+n->right: 0x113b40
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x113b70
+n->right: 0x113ba0
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x113bd0
+n->right: 0x113c00
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x113c30
+n->right: 0x113c60
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x113c90
+n->right: 0x113cc0
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x113cf0
+n->right: 0x113d20
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x113d50
+n->right: 0x113d80
+n->parent: 0x110a90
+else
+split()
+n: 0x110a90
+n->left: 0x113db0
+n->right: 0x113de0
+n->parent: 0x111ed0
+else
+split()
+n: 0x111ed0
+n->left: 0x113e10
+n->right: 0x113e40
+n->parent: 0x1133a0
+else
+printTree: word1: dick, word2: having
+WORD: i
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x113ed0
+n->right: 0x113f00
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x113f30
+n->right: 0x113f60
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x113f90
+n->right: 0x113fc0
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x113ff0
+n->right: 0x114020
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x114050
+n->right: 0x114080
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x1140b0
+n->right: 0x1140e0
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x114110
+n->right: 0x114140
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x114170
+n->right: 0x1141a0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x1141d0
+n->right: 0x114200
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x114230
+n->right: 0x114260
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x114290
+n->right: 0x1142c0
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x1142f0
+n->right: 0x114320
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x114350
+n->right: 0x114380
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x1143b0
+n->right: 0x1143e0
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x114410
+n->right: 0x114440
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x114470
+n->right: 0x1144a0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x1144d0
+n->right: 0x114500
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x114530
+n->right: 0x114560
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x114590
+n->right: 0x1145c0
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x1145f0
+n->right: 0x114620
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x114650
+n->right: 0x114680
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x1146b0
+n->right: 0x1146e0
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x114710
+n->right: 0x114740
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x114770
+n->right: 0x1147a0
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x1147d0
+n->right: 0x114800
+n->parent: 0x110a90
+else
+split()
+n: 0x110a90
+n->left: 0x114830
+n->right: 0x114860
+n->parent: 0x111ed0
+else
+split()
+n: 0x111ed0
+n->left: 0x114890
+n->right: 0x1148c0
+n->parent: 0x1133a0
+else
+split()
+n: 0x1133a0
+n->left: 0x1148f0
+n->right: 0x114920
+n->parent: 0
+if (n->parent == NULL)
+printTree: word1: dick, word2: having
+word: have
+insert()
+split()
+n: 0x100190
+n->left: 0
+n->right: 0
+n->parent: 0x100290
+else
+split()
+n: 0x100290
+n->left: 0x114a00
+n->right: 0x114a30
+n->parent: 0x100400
+else
+split()
+n: 0x100400
+n->left: 0x114a80
+n->right: 0x114ab0
+n->parent: 0x100650
+else
+split()
+n: 0x100650
+n->left: 0x114ae0
+n->right: 0x114b10
+n->parent: 0x100970
+else
+split()
+n: 0x100970
+n->left: 0x114b40
+n->right: 0x114b70
+n->parent: 0x100d30
+else
+split()
+n: 0x100d30
+n->left: 0x114ba0
+n->right: 0x114bd0
+n->parent: 0x1011e0
+else
+split()
+n: 0x1011e0
+n->left: 0x114c00
+n->right: 0x114c30
+n->parent: 0x101750
+else
+split()
+n: 0x101750
+n->left: 0x114c60
+n->right: 0x114c90
+n->parent: 0x101d70
+else
+split()
+n: 0x101d70
+n->left: 0x114cc0
+n->right: 0x114cf0
+n->parent: 0x102460
+else
+split()
+n: 0x102460
+n->left: 0x114d20
+n->right: 0x114d50
+n->parent: 0x102c00
+else
+split()
+n: 0x102c00
+n->left: 0x114d80
+n->right: 0x114db0
+n->parent: 0x103480
+else
+split()
+n: 0x103480
+n->left: 0x114de0
+n->right: 0x114e10
+n->parent: 0x103d60
+else
+split()
+n: 0x103d60
+n->left: 0x114e40
+n->right: 0x114e70
+n->parent: 0x104720
+else
+split()
+n: 0x104720
+n->left: 0x114ea0
+n->right: 0x114ed0
+n->parent: 0x105170
+else
+split()
+n: 0x105170
+n->left: 0x114f00
+n->right: 0x114f30
+n->parent: 0x105cd0
+else
+split()
+n: 0x105cd0
+n->left: 0x114f60
+n->right: 0x114f90
+n->parent: 0x106900
+else
+split()
+n: 0x106900
+n->left: 0x114fc0
+n->right: 0x114ff0
+n->parent: 0x1075c0
+else
+split()
+n: 0x1075c0
+n->left: 0x115020
+n->right: 0x115050
+n->parent: 0x108310
+else
+split()
+n: 0x108310
+n->left: 0x115080
+n->right: 0x1150b0
+n->parent: 0x109150
+else
+split()
+n: 0x109150
+n->left: 0x1150e0
+n->right: 0x115110
+n->parent: 0x10a050
+else
+split()
+n: 0x10a050
+n->left: 0x115140
+n->right: 0x115170
+n->parent: 0x10b040
+else
+split()
+n: 0x10b040
+n->left: 0x1151a0
+n->right: 0x1151d0
+n->parent: 0x10c0e0
+else
+split()
+n: 0x10c0e0
+n->left: 0x115200
+n->right: 0x115230
+n->parent: 0x10d220
+else
+split()
+n: 0x10d220
+n->left: 0x115260
+n->right: 0x115290
+n->parent: 0x10e430
+else
+split()
+n: 0x10e430
+n->left: 0x1152c0
+n->right: 0x1152f0
+n->parent: 0x10f720
+else
+split()
+n: 0x10f720
+n->left: 0x115320
+n->right: 0x115350
+n->parent: 0x110a90
+else
+split()
+n: 0x110a90
+n->left: 0x115380
+n->right: 0x1153b0
+n->parent: 0x111ed0
+else
+split()
+n: 0x111ed0
+n->left: 0x1153e0
+n->right: 0x115410
+n->parent: 0x1133a0
+else
+split()
+n: 0x1133a0
+n->left: 0x115440
+n->right: 0x115470
+n->parent: 0x114950
+else
+printTree: word1: dick, word2: have
+
+The height of the 2-3 Tree is 0
+The number of distinct nodes/words is 0
+The number of words that have between 1 to 4 characters is 37
+The number of words that have between 5 to 8 characters is 21
+The number of words that have between 9 to 12 characters is 2
+The number of words that have more than 12 characters is 0
+Word Histogram(freq - word): 
+printTree: word1: dick, word2: have

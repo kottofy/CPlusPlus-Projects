@@ -1,0 +1,2 @@
+all: ReverseIt.cpp
+	g++ -o ReverseIt ReverseIt.cpp

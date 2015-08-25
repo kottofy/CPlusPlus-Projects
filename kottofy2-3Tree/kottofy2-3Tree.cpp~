@@ -1,0 +1,201 @@
+/* 
+ * File:   main.cpp
+ * Author: kottofy
+ *
+ * Created on March 22, 2011, 12:38 PM
+ */
+
+#include <cstdlib>
+#include <string>
+#include <stdlib.h>
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int height = 0; //height of tree
+int numberOfWords = 0; //total number of words in tree
+int numWords4Chars = 0; //number of words that contain between 1-4 characters
+int numWords8Chars = 0; //number of words that contain between 5-8 characters
+int numWords12Chars = 0; //number of words that contain between 9-12 characters
+int numWordsMoreChars = 0; //number of words that contain more than 12 characters
+
+struct node
+{
+
+    string word1;
+    string word2;
+    int freq1;
+    int freq2;
+    struct node *left;
+    struct node *right;
+    struct node *middle;
+
+    node(string str)
+    {
+        word1 = str;
+        word2 = "";
+        freq1 = 0;
+        freq2 = 0;
+        left = NULL;
+        middle = NULL;
+        right = NULL;
+    }
+};
+
+void countWordLength(string str)
+{
+    if (str.length() < 5)
+        numWords4Chars++;
+    else if (str.length() < 9)
+        numWords8Chars++;
+    else if (str.length() < 13)
+        numWords12Chars++;
+    else
+        numWordsMoreChars++;
+}
+
+/*print the words in the tree in postorder*/
+void printTree(node *node)
+{
+    cout << "printTree\n";
+    if (node != NULL)
+    {
+        printTree(node->left); // Evaluate the left subtree.
+        printTree(node->middle);
+        cout << node->freq1 << " - " << "word1: " << node->word1 << "word2: " << node->word2 << endl; // Print item in the node.
+        printTree(node->right); // Evaluate the right subtree.
+    }
+}
+
+void insert(node *&n, string str)
+{
+    if (n == NULL)
+    {
+        n = new node(str);
+        n->freq1++;
+    } else if (n->word2 != "" && str.compare(n->word2) > 0)
+    {
+
+    } else if (str.compare(n->word1) > 0)
+    {
+
+    } else
+    {
+
+    }
+}
+
+/*return true if the word is a duplicate in the tree, if not return false
+bool isDuplicate(node *node, string str)
+{
+    if (node == NULL) //if the tree is empty, then there are no duplicates
+        return false;
+    else if (str == node->word1)
+    { // the word has been found in the current node
+        node->freq1++; //increment the frequency of the node
+        return true;
+    }
+    else if (str == node->word2)
+    {
+        node->freq2++;
+        return true;
+    }
+    //if the word is less than the word at the current node, evaluate the left subtree
+    else if (str < node->word)
+        return isDuplicate(node->left, str);
+        //if the word is greater than the word at the current node, evaluate the right subtree
+    else
+        return isDuplicate(node->right, str);
+}
+
+void FindKey(Tree T, searchkey, Boolean success)
+{
+    if (searchkey is in T’s root)
+        success = true;
+    else if (current_node is a leaf && searchkey is not in this node)
+        success = false;
+    else if (current_node has 2 keys)
+    {
+        if (searchkey < smaller key of the node)
+            findkey(node’s left subtree, searchkey, success)
+        else if (searchkey < larger key of the node)
+            findkey(node’s middle subtree, searchkey, success)
+        else // if (searchkey  > larger key of the node)
+            findkey(node’s right subtree, searchkey, success)
+        } else
+    {
+        if (searchkey < node’s key)
+            findkey(node’s left sub tree, searchkey, success)
+        else
+            findkey(node’s right subtree, searchkey success)
+        }
+}
+
+
+
+
+/*
+ *
+ */
+int main(int argc, char** argv)
+{
+
+
+    struct node *head; //tree root node
+
+    string line = "";
+    string word = "";
+    int lineNum = 1;
+
+    while (getline(cin, line))
+    {
+      //        cout << "length: " << line.length() << endl;
+      //   cout << "lineNum: " << lineNum << " - " << line << endl;
+
+        for (int i = 0; i < line.length(); i++)
+        {
+	  //    cout << "line.at(" << i << "): " << line.at(i) << endl;
+          //  cout << "ascii: " << (int) line.at(i) << endl;
+
+            if (((int) line.at(i) > 64 && (int) line.at(i) < 91) || ((int) line.at(i) > 96 && (int) line.at(i) < 123))
+            {
+                word += tolower(line.at(i));
+            }
+            else if ((int) line.at(i) > 47 && (int) line.at(i) < 58)
+            {
+                word += line.at(i);
+            }
+            else
+            {
+                if (word != "")
+                {
+                    cout << "word: " << word << endl;
+                    countWordLength(word);
+                    //   if (!isDuplicate(head, word))
+                    insert(head, word);
+                    word = "";
+                }
+            }
+            if (i+1 == line.length() && word != "")
+            {
+                cout << "word: " << word << endl;
+                countWordLength(word);
+                //     if (!isDuplicate(head, word))
+                insert(head, word);
+                word = "";
+            }
+        }
+        lineNum++;
+    }
+
+    cout << "\nThe height of the 2-3 Tree is " << height << endl;
+    cout << "The number of distinct nodes/words is " << numberOfWords << endl;
+    cout << "The number of words that have between 1 to 4 characters is " << numWords4Chars << endl;
+    cout << "The number of words that have between 5 to 8 characters is " << numWords8Chars << endl;
+    cout << "The number of words that have between 9 to 12 characters is " << numWords12Chars << endl;
+    cout << "The number of words that have more than 12 characters is " << numWordsMoreChars << endl;
+    cout << "Word Histogram(freq - word): " << endl;
+    printTree(head);
+    return 1;
+}
